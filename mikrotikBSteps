@@ -1,1 +1,11 @@
 https://wiki.openwrt.org/toh/mikrotik/common
+
+
+Image Download
+===============
+ wget --no-check-certificate -c https://downloads.openwrt.org/barrier_breaker/14.07/ar71xx/mikrotik/openwrt-ar71xx-mikrotik-DefaultNoWifi-rootfs.tar.gz
+ wget --no-check-certificate -c https://downloads.openwrt.org/barrier_breaker/14.07/ar71xx/mikrotik/openwrt-ar71xx-mikrotik-vmlinux-lzma.elf
+ wget --no-check-certificate -c https://downloads.openwrt.org/barrier_breaker/14.07/ar71xx/mikrotik/openwrt-ar71xx-mikrotik-vmlinux-initramfs.elf
+ cp openwrt-ar71xx-mikrotik-DefaultNoWifi-rootfs.tar.gz openwrt-ar71xx-mikrotik-rootfs.tar.gz
+ ln -s openwrt-14.07-ar71xx-mikrotik-DefaultNoWifi-rootfs.tar.gz openwrt-ar71xx-mikrotik-rootfs.tar.gz
+ ln -s openwrt-14.07-ar71xx-mikrotik-vmlinux-lzma.elf openwrt-ar71xx-mikrotik-vmlinux-lzma.elf
